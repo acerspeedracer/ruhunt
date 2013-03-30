@@ -1,4 +1,7 @@
 from flask import Flask
+import sendgrid
+
+s = sendgrid.Sendgrid('ace6598','aiser12',secure=True)
 app = Flask(__name__)
 
 @app.route("/")
