@@ -1,0 +1,4 @@
+*.pyc
+log/*.log
+tmp/pids/*.pid
+tmp/socks/*.sock
