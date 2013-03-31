@@ -3,7 +3,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Carousel Template &middot; Bootstrap</title>
+    <title>Home | Scarlet Assassins &middot; Bootstrap</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -21,7 +21,6 @@
   </head>
   <body background="images/background.jpg">
 
-
 <?php
 
 require("navigation.php");
@@ -38,10 +37,10 @@ require("navigation.php");
             <div class="carousel-caption">
 
               <h1>RU Assassins</h1>
-              <p class="lead">Ultimate Manhunt.</p>
+              <p class="lead">Ultimate Rutgers Manhunt.</p>
 
 
-              <a class="btn btn-large btn-primary" href="#">Sign up today</a>
+              <a class="btn btn-large btn-primary" href="#">Sign Up</a>
 
 
             </div>
@@ -51,9 +50,9 @@ require("navigation.php");
           <img src="images/scarlet.png" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>New Innovative way to play Assassins.</h1>
-              <p class="lead">Innovation</p>
-              <a class="btn btn-large btn-primary" href="#">Learn more</a>
+              <h1>A New Perspective on Large Scale Gameplay</h1>
+              <p class="lead">Engage in a game of skill and wits on a university-wide scale.</p>
+              <a class="btn btn-large btn-primary" href="howto.php">Learn more</a>
             </div>
           </div>
         </div>
