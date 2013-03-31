@@ -3,6 +3,7 @@
     /* Padding below the footer and lighter body text */
 
     body {
+      background-image:url(.\templates\images\background.jpg);
       padding-bottom: 40px;
       color: #5a5a5a;
     }
@@ -121,6 +122,22 @@
     .marketing .span4 p {
       margin-left: 10px;
       margin-right: 10px;
+    }
+
+    /* Sign Up Page | Authored by Mr. Brandon Siebert
+    -------------------------------------------------- */
+
+    .signup 
+    {
+      margin-left: 200px;
+      margin-right: 200px;
+    }
+
+    #signup h2
+    {
+      font-size: 40;
+      font-weight: normal;
+      font-style:  italic, bold;
     }
 
 
