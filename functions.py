@@ -2,6 +2,7 @@ import random
 
 def targetPeep(users):
   target = random.choice(users)
+  textPeeps([target], "You are the target")
   return target
 
 def textPeeps(number, string):
