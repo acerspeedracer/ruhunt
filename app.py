@@ -25,14 +25,14 @@ def create_user_page(username):
   return 'User: %s' % username
 
 @app.route("/home")
-@app.route("/")
+#@app.route("/")
 def homepage():
-	return render_template("home.html")
+	return render_template("home.php")
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
 @app.route("/about")
 def about():
-	return render_template("about.html")
+	return render_template("about.php")
 app.wsgi_app = ProxyFix(app.wsgi_app)
 
 if __name__ == "__main__":
