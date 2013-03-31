@@ -1,5 +1,5 @@
 import cv, sys
-
+import math
 def histogram(image, h_bins = 30, s_bins = 32, scale = 10):
 	hsv = cv.CreateImage(cv.GetSize(image),8,3)
 	hplane = cv.CreateImage(cv.GetSize(image),8,1)
@@ -20,8 +20,9 @@ if __name__ == '__main__':
 		image2 = cv.LoadImage(sys.argv[2], cv.CV_LOAD_IMAGE_COLOR)
 		hist1 = histogram(image1)
 		hist2 = histogram(image2)
-		sc = cv.CompareHist(hist1, hist2, cv.CV_COMP_BHATTACHARYYA)
-		if sc > .9 :
+		sc = cv.CompareHist(hist1, hist2, cv.CV_COMP_CORREL)
+		print sc
+		if math.fabs(sc) < .005:
 			print 1
 		else:
 			print 0
