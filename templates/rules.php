@@ -32,7 +32,7 @@ require("navigation.php");
 WARNING: Scarlet Assassins takes no responsibilities for any actions that the players choose to take. Any protection from physical, mental, and/or emotional harm are not under the obligation of Scarlet Assassins. PLAY AT YOUR OWN RISK!!!!
 </p>
 
-<p> Rule 4: The game is orchestrated such that the target is chosen at random and other players will have to find that target. Once the game starts, all players will receive text messages from the system that will slowly give out clues about the target. There is a deadline for the game that will be determined by the system and can be seen on the website. 
+<p> Rule 4: The game is orchestrated such that the target is chosen at random and other players will have to find that target. There will be preliminary text messages that are sent to the phones of all players to verify that all players are able to receive information via text. Once the game starts, all players will receive text messages from the system that will slowly give out clues about the target. There is a deadline for the game that will be determined by the system and can be seen on the website. 
 </p>
 
 <p> Rule 5: Once the target has been found, or who the player(s) believe is the target, a picture must be taken of the "target's" face and the players that have found him/her. The photo must be emailed to the system and it will be checked through face recognition for correctness. The winner(s) will be posted on our home page as long as the game they have won remains within the most recent 3 games.
