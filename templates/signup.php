@@ -23,16 +23,16 @@
   <body>
 
   	<?php
-
-require("navigation.php");
-
-?>
-<div class="container marketing">
-<u><h1>Rules</h1></u>
-Rule1
-Rule2
-Rule3
-</div>
-
-</body>
+    require("navigation.php");
+    ?>
+    <div class="container marketing">
+      <br><br><br><br><br>
+      <center><u><h1>Rules</h1></u></center>
+      <ul>
+        <li>Rule1
+        <li>Rule2
+        <li>Rule3
+      </ul>
+    </div>
+  </body>
 </html>
