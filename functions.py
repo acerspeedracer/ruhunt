@@ -29,3 +29,29 @@ def numberfile2array(filename):
 	f.close()
 	return b
 
+def textList(filename):
+	numbers = []
+	targets = []
+	numbers= numberfile2array(filename)
+	targets = namefile2array(filename)
+	target = targetPeep(targets)
+	textPeeps(numbers, "The game has started.")
+	
+def getDescription(filename, target)
+	targetnumber =[]
+	numbers = []
+	numbers = numberfile2array(filename)
+	with open(filename) as f:
+		for line in f:
+			if line.find(target) != -1:
+				newline = line.split('\t')
+				targetnumber.append(newline[1])
+				break
+	f.close()
+	with open("/data/"+targetnumber) as f:
+		for line in f:
+			if line.find(targetnumber) == -1:
+				textPeeps(numbers, line)
+	f.close()	
+
+			
