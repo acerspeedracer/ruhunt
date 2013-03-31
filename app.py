@@ -2,9 +2,9 @@ from flask import Flask
 from werkzeug.contrib.fixers import ProxyFix
 from flask import render_template
 from flask import request
-import sendgrid
+#import sendgrid
 
-s = sendgrid.Sendgrid('ace6598','aiser12',secure=True)
+#s = sendgrid.Sendgrid('ace6598','aiser12',secure=True)
 app = Flask(__name__)
 
 @app.route("/")
