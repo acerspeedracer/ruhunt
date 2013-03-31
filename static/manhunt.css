@@ -102,17 +102,12 @@
       line-height: 1.25;
       color: #fff;
       font-weight: bold;
-      -webkit-text-stroke-width: 2px;
-      -webkit-text-stroke-color: black;
     }
     .carousel-caption .lead {
       margin: 0;
       line-height: 1.25;
-      color: #999;
-      font-weight: bold;
-      /*-webkit-text-stroke-width: 1px;*/
-      -webkit-text-stroke-color: black;
-    }
+      color: #fff;
+      font-weight: bold;    }
     .carousel-caption .btn {
       margin-top: 10px;
     }

@@ -20,7 +20,7 @@
 
   </head>
 
-	<body>
+	<body background="images/background.jpg">
 		<?php
 
     		require("navigation.php");

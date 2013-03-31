@@ -26,7 +26,7 @@
 require("navigation.php");
 
 ?>
-
+<br><br><br><br>
 
     <!-- Carousel
     ================================================== -->
@@ -41,7 +41,7 @@ require("navigation.php");
               <p class="lead">Ultimate Rutgers Manhunt.</p>
 
 
-              <a class="btn btn-large btn-primary" href="#">Sign Up</a>
+              <a class="btn btn-large btn-primary" href="rules.php">Sign Up</a>
 
 
             </div>
@@ -51,9 +51,9 @@ require("navigation.php");
           <img src="images/scarlet.png" alt="">
           <div class="container">
             <div class="carousel-caption">
-              <h1>A New Perspective on Large Scale Gameplay</h1>
-              <p class="lead">Engage in a game of skill and wits on a university-wide scale.</p>
-              <a class="btn btn-large btn-primary" href="howto.php">Learn more</a>
+              <h1>A New Perspective on<br> Large Scale Gameplay</h1>
+              <p class="lead">Engage in a game of skill and wits<br> on a university-wide scale.</p>
+              <a class="btn btn-large btn-primary" href="about.php">Learn more</a>
             </div>
           </div>
         </div>
