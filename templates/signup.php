@@ -21,14 +21,14 @@
   </head>
 
   <body>
-    <div id="signup">
 
     <?php
 
     require("navigation.php");
 
     ?>
-      <div class="signup">
+    <div id="signup">
+      <div>
         <br><br><br><br><br>
         <center><h2>Sign Up!</h2></center>
         <div border-style: dotted; width=500;>

@@ -22,34 +22,36 @@
 
 	<body>
 		<?php
+
     		require("navigation.php");
+
     	?>
-    	<div class"container marketing">
+    	<div class="about">
 			<p> This website was created by ambitious Rutgers Computer Science students during a Hackathon Event in the Spring of 2013. The idea behind this creation was influenced by the common game of Manhunt, which can also be associated with the game Assasins. Behind the scenes, the website utilizes the APIs curtesy of SendGrid and Twilio. Below are the great masterminds behind this creation.
 			</p>
 
-			<p> Aiser Sheikh: Majoring in  Computer Science at Rutgers University.
+			<p> <h1>Aiser Sheikh:</h1> Majoring in  Computer Science at Rutgers University.
 			</p>
 
-			<p> Will Langford: Currently a student at Rutgers University aiming for a degree in Computer Science.
+			<p> <h1>Will Langford:</h1> Currently a student at Rutgers University aiming for a degree in Computer Science.
 			</p>
 
-			<p> Matt Resch: Studying Computer Science at Rutgers University.
+			<p> <h1>Matt Resch:</h1> Studying Computer Science at Rutgers University.
 			</p>
 
-			<p> Brandon Siebert: Studying Electrical and Computer Engineering at Rutgers University.
+			<p> <h1>Brandon Siebert:</h1> Studying Electrical and Computer Engineering at Rutgers University.
 			</p>
 
-			<p> Sam Sheikh: Majoring in Accounting at Rutgers University.
+			<p> <h1>Sam Sheikh:</h1> Majoring in Accounting at Rutgers University.
 			</p>
 
-			<p> Mariam Tsilosani: Computer Science major at Rutgers University.
+			<p> <h1>Mariam Tsilosani:</h1> Computer Science major at Rutgers University.
 			</p>
 
-			<p> Elizabeth Gao: Aiming for a Computer Science degree at Rutgers University.
+			<p> <h1>Elizabeth Gao:</h1> Aiming for a Computer Science degree at Rutgers University.
 			</p>
 
-			<p> Megan Murray: Obtaining a degree in Computer Science at Rutgers University.
+			<p> <h1>Megan Murray:</h1> Obtaining a degree in Computer Science at Rutgers University.
 			</p>
 
 			<p> For any inquiries about the website or the rules of the game, feel free to contact the administrators at hunting@ruhunt.org.

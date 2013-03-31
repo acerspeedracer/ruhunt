@@ -26,7 +26,8 @@
 require("navigation.php");
 
 ?>
-   
+
+
     <!-- Carousel
     ================================================== -->
     <div id="myCarousel" class="carousel slide">
@@ -84,15 +85,15 @@ require("navigation.php");
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
           <h2>Winner of the Previous Game</h2>
-			 <p> This player won the previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game. There were Y number of reported incidences. 
+			 <p> This player won the previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game. 
 			</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
 		  </div><!-- /.span4 -->
 
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Winner of the Previous Previous Game</h2>
-			 <p> This player won the previous previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game. There were Y number of reported incidences. 
+          <h2>Winner of the Previous Game</h2>
+			 <p> This player won the previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game.
 			</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
@@ -100,8 +101,8 @@ require("navigation.php");
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
         
-          <h2>Winnder of the Previous Previous Previous Game</h2>
-			 <p> This player won the previous of the previous of the previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game. There were Y number of reported incidences.
+          <h2>Winner of the Previous Game</h2>
+			 <p> This player won the previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game.
 			</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->

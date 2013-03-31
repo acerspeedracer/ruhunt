@@ -127,10 +127,10 @@
     /* Sign Up Page | Authored by Mr. Brandon Siebert
     -------------------------------------------------- */
 
-    .signup 
+    #signup 
     {
-      margin-left: 200px;
-      margin-right: 200px;
+      margin-left: 210px;
+      margin-right: 210px;
     }
 
     #signup h2
@@ -138,6 +138,15 @@
       font-size: 40;
       font-weight: normal;
       font-style:  italic, bold;
+    }
+
+
+    .about
+    {
+      margin-left: 210px;
+      margin-top: 100px;
+      margin-right: 210px;
+      *zoom: 1;
     }
 
 
