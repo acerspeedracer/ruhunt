@@ -1,0 +1,5 @@
+#!/bin/bash
+if [ -f ./tmp/pids/gunicorn.pid ];
+then
+	kill `cat ./tmp/pids/gunicorn.pid`
+fi

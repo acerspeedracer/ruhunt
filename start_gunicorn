@@ -1,0 +1,2 @@
+#!/bin/bash
+gunicorn -b unix:`pwd`/tmp/socks/gunicorn.sock -p `pwd`/tmp/pids/gunicorn.pid -w 4 -D app:app --log-file=`pwd`/log/gunicorn.log
