@@ -20,7 +20,7 @@
 
   </head>
 
-	<body>
+	<body background="images/background.jpg">
 		<?php
 
     		require("navigation.php");
@@ -30,28 +30,28 @@
 			<p> This website was created by ambitious Rutgers Computer Science students during a Hackathon Event in the Spring of 2013. The idea behind this creation was influenced by the common game of Manhunt, which can also be associated with the game Assasins. Behind the scenes, the website utilizes the APIs curtesy of SendGrid and Twilio. Below are the great masterminds behind this creation.
 			</p>
 
-			<p> <h1>Aiser Sheikh:</h1> Majoring in  Computer Science at Rutgers University.
+			<p> <h2>Aiser Sheikh:</h2> Majoring in  Computer Science at Rutgers University.
 			</p>
 
-			<p> <h1>Will Langford:</h1> Currently a student at Rutgers University aiming for a degree in Computer Science.
+			<p> <h2>Will Langford:</h2> Currently a student at Rutgers University aiming for a degree in Computer Science.
 			</p>
 
-			<p> <h1>Matt Resch:</h1> Studying Computer Science at Rutgers University.
+			<p> <h2>Matt Resch:</h2> Studying Computer Science at Rutgers University.
 			</p>
 
-			<p> <h1>Brandon Siebert:</h1> Studying Electrical and Computer Engineering at Rutgers University.
+			<p> <h2>Brandon Siebert:</h2> Studying Electrical and Computer Engineering at Rutgers University.
 			</p>
 
-			<p> <h1>Sam Sheikh:</h1> Majoring in Accounting at Rutgers University.
+			<p> <h2>Sam Sheikh:</h2> Majoring in Accounting at Rutgers University.
 			</p>
 
-			<p> <h1>Mariam Tsilosani:</h1> Computer Science major at Rutgers University.
+			<p> <h2>Mariam Tsilosani:</h2> Computer Science major at Rutgers University.
 			</p>
 
-			<p> <h1>Elizabeth Gao:</h1> Aiming for a Computer Science degree at Rutgers University.
+			<p> <h2>Elizabeth Gao:</h2> Aiming for a Computer Science degree at Rutgers University.
 			</p>
 
-			<p> <h1>Megan Murray:</h1> Obtaining a degree in Computer Science at Rutgers University.
+			<p> <h2>Megan Murray:</h2> Obtaining a degree in Computer Science at Rutgers University.
 			</p>
 
 			<p> For any inquiries about the website or the rules of the game, feel free to contact the administrators at hunting@ruhunt.org.
