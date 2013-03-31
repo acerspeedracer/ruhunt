@@ -37,8 +37,8 @@ require("navigation.php");
           <div class="container">
             <div class="carousel-caption">
 
-              <h1>RU Assassins</h1>
-              <p class="lead">Ultimate Rutgers Manhunt.</p>
+              <h1>Scarlet Assassins</h1>
+              <p class="lead">Ultimate Manhunt.<br>RU Ready to play?</p>
 
 
               <a class="btn btn-large btn-primary" href="rules.php">Sign Up</a>

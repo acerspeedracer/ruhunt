@@ -100,13 +100,13 @@
     {
       margin: 0;
       line-height: 1.25;
-      color: #fff;
+      color: #222;
       font-weight: bold;
     }
     .carousel-caption .lead {
       margin: 0;
       line-height: 1.25;
-      color: #fff;
+      color: #000;
       font-weight: bold;    }
     .carousel-caption .btn {
       margin-top: 10px;
