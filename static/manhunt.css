@@ -101,7 +101,8 @@
       margin: 0;
       line-height: 1.25;
       color: #fff;
-      text-shadow: 0 1px 1px rgba(0,0,0,.4);
+      -webkit-text-stroke-width: 1px;
+      -webkit-text-stroke-color: gray;
     }
     .carousel-caption .btn {
       margin-top: 10px;
@@ -127,10 +128,10 @@
     /* Sign Up Page | Authored by Mr. Brandon Siebert
     -------------------------------------------------- */
 
-    .signup 
+    #signup 
     {
-      margin-left: 200px;
-      margin-right: 200px;
+      margin-left: 210px;
+      margin-right: 210px;
     }
 
     #signup h2
@@ -138,6 +139,23 @@
       font-size: 40;
       font-weight: normal;
       font-style:  italic, bold;
+    }
+
+
+    .about
+    {
+      margin-left: 210px;
+      margin-top: 100px;
+      margin-right: 210px;
+      *zoom: 1;
+    }
+
+    .rules
+    {
+      margin-left: 210px;
+      margin-top: 100px;
+      margin-right: 210px;
+      *zoom: 1;
     }
 
 

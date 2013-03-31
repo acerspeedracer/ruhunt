@@ -25,17 +25,13 @@
   <div id="current">
 
   	<?php
+    require("navigation.php");
+    ?>
 
-require("navigation.php");
-
-?>
 
 <div class="container marketing">
-
-
   <!-- Three columns of text below the carousel -->
-  <div class="row">
-     
+  <div class="row">  
      <br>
      <br>
      <br>

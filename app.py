@@ -46,7 +46,7 @@ def email():
 	f.write("%s\n%s"%(request.form['subject'],'\n'.join(request.form['text'].splitlines())))
 	nm = "/var/www/ruhunt/templates/thumbs/%s.png"%request.form['text'].splitlines()[0]
 	f.close()
-	f = open("/var/www/ruhunt/data/namepairs","wa")
+	f = open("/var/www/ruhunt/data/namepairs","a")
 	f.write("%s\t%s\n"%(request.form['subject'],request.form['text'].splitlines()[0]))
 	f.close()
 	request.files['attachment1'].save(nm)
