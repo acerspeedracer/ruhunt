@@ -27,10 +27,12 @@
 require("navigation.php");
 
 ?>
-
-<h1?Rules</h2>
-
-
+<div class="container marketing">
+<u><h1>Rules</h1></u>
+Rule1
+Rule2
+Rule3
+</div>
 
 </body>
 </html>
