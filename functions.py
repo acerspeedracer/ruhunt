@@ -1,3 +1,4 @@
+from twilio.rest import TwilioRestClient
 import random
 
 def targetPeep(users):
@@ -12,7 +13,7 @@ def textPeeps(number, string):
   account  = "ACebee71a1ea0c79fd0f8b2f3eedb4e816"
   token = "3e0adb5bc52d10c6984b6aa96fa95182"
   client = TwilioRestClient(account, token)
-  for each txtNum in number:
+  for txtNum in number:
     message = client.sms.messages.create(to=txtNum, from_="+14845884913", body=string)
 
 def namefile2array(filename):
@@ -33,15 +34,16 @@ def numberfile2array(filename):
 	f.close()
 	return b
 
-def textList(filename):
+def textList():
 	numbers = []
 	targets = []
+	filename = "/var/www/ruhunt/data/namepairs"
 	numbers= numberfile2array(filename)
 	targets = namefile2array(filename)
 	target = targetPeep(targets)
 	textPeeps(numbers, "The game has started.")
 	
-def getDescription(filename, target)
+def getDescription(filename, target):
 	targetnumber =[]
 	numbers = []
 	numbers = numberfile2array(filename)
