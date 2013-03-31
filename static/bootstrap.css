@@ -7,6 +7,50 @@
  *
  * Designed and built with all the love in the world @twitter by @mdo and @fat.
  */
+ 
+ 
+ /* CSS for the Current gamepage
+ *
+ * ~Mariam
+ */
+ 
+ 
+#current img {
+  width: 200px;
+  height: 200px;
+ 
+  max-width: 100%;
+  vertical-align: middle;
+  border: 5px;
+  padding:5px;
+  -ms-interpolation-mode: bicubic;
+}
+
+#current .figure {
+	
+	text-align: center;
+	background: rgb(111, 0, 0);
+	margin: 0;
+	padding: 0;
+	color:yellow;
+	float:left;
+
+	
+font-family: Tahoma, Geneva, sans-serif;
+line-height: 24px;
+color:#FFF;
+-webkit-border-radius: 10px;
+-moz-border-radius: 10px;
+border-radius: 10px;
+padding:10px;
+border: 1px solid #999;
+border: inset 1px solid #333;
+-webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+-moz-box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3);
+margin: 10px;
+}
+ 
 
 .clearfix {
   *zoom: 1;
@@ -104,6 +148,7 @@ img {
   max-width: 100%;
   vertical-align: middle;
   border: 0;
+  
   -ms-interpolation-mode: bicubic;
 }
 
