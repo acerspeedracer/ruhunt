@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Carousel Template &middot; Bootstrap</title>
+    <title>Current Game | Scarlet Assassins</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -20,7 +20,9 @@
 
   </head>
 
-  <body>
+  <body background="images/background.jpg">
+  
+  <div id="current">
 
   	<?php
 
@@ -30,12 +32,18 @@ require("navigation.php");
 
 <div class="container marketing">
 
+
   <!-- Three columns of text below the carousel -->
   <div class="row">
-     <div class="span4">
-       <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
-
+     
+     <br>
+     <br>
+     <br>
+     <center>
+       <img src="images/logo.png">
+       
+          <h2>Currently Playing</h2>
+		</center>
 <?php
 
 if ($handle = opendir('dynamicimages')) {
@@ -44,7 +52,14 @@ if ($handle = opendir('dynamicimages')) {
  	if($entry == "." || $entry == ".."){
  		continue;
  	}
+	?>
+	<div class="figure">
+    <?php
         echo "<img src=dynamicimages/$entry>\n";
+	?>	
+    <p> Firstname Lastname </p>
+    </div>
+    <?php
 }
 
 closedir($handle);
@@ -56,8 +71,10 @@ else{
 
 ?>
 
+
 	</div>
 </div>
+
 
 
   </body>

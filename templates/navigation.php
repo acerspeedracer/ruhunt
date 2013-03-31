@@ -12,11 +12,12 @@
               <span class="icon-bar"></span>
               <span class="icon-bar"></span>
             </button>
-            <a class="brand" href="home.php">RU Assassins</a>
+            <a class="brand" href="home.php">Scarlet Assassins</a>
             <!-- Responsive Navbar Part 2: Place all navbar contents you want collapsed withing .navbar-collapse.collapse. -->
             <div class="nav-collapse collapse">
               <ul class="nav">
-                <li class="active"><a href="howto.php">How to Play</a></li>
+                <li><a href="howto.php">How to Play</a></li>
+                <li><a href="rules.php">Rules</a></li>
                 <li><a href="currentgame.php">Current Game</a></li>
                 <li><a href="signup.php">Sign Up</a></li>
                 <li><a href="about.php">About</a></li>
