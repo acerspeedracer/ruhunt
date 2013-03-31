@@ -84,22 +84,26 @@ require("navigation.php");
       <div class="row">
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna, vel scelerisque nisl consectetur et.</p>
+          <h2>Winner of the Previous Game</h2>
+			 <p> This player won the previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game. There were Y number of reported incidences. 
+			</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
-        </div><!-- /.span4 -->
+		  </div><!-- /.span4 -->
+
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
-          <h2>Heading</h2>
-          <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Winner of the Previous Previous Game</h2>
+			 <p> This player won the previous previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game. There were Y number of reported incidences. 
+			</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
         
         <div class="span4">
           <img class="img-circle" data-src="holder.js/140x140">
         
-          <h2>Heading</h2>
-          <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
+          <h2>Winnder of the Previous Previous Previous Game</h2>
+			 <p> This player won the previous of the previous of the previous game with a recorded time of Days:Hours:Minutes:Seconds. There were X number of players in the game. There were Y number of reported incidences.
+			</p>
           <p><a class="btn" href="#">View details &raquo;</a></p>
         </div><!-- /.span4 -->
       </div><!-- /.row -->
