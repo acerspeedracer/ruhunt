@@ -19,8 +19,8 @@
 		<?php
 require("navigation.php");
 ?>
-
-<u><h1>RULES</h1></u>
+<div id="signup">
+<h2>RULES</h2>
 <p> Rule 1: All players that wish to join in the current game must submit their name, picture, phone number, and at least 5 personal clues about yourself via email. Each piece of information must be entered line by line. All submissions must be entered before the declared deadline on the website. Any submissions received after the deadline will be put into the next round of the game.
 </p>
 
@@ -37,7 +37,7 @@ WARNING: Scarlet Assassins takes no responsibilities for any actions that the pl
 
 <p> Rule 5: Once the target has been found, or who the player(s) believe is the target, a picture must be taken of the "target's" face and the players that have found him/her. The photo must be emailed to the system and it will be checked through face recognition for correctness. The winner(s) will be posted on our home page as long as the game they have won remains within the most recent 3 games.
 </p>
-
+</div>
 </body>
 </html>
 
