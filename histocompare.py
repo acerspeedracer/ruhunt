@@ -22,7 +22,7 @@ if __name__ == '__main__':
 		hist2 = histogram(image2)
 		sc = cv.CompareHist(hist1, hist2, cv.CV_COMP_CORREL)
 		print sc
-		if math.fabs(sc) < .005:
+		if math.fabs(sc) > .45:
 			print 1
 		else:
 			print 0
