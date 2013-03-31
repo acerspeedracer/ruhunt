@@ -32,5 +32,11 @@ def create_user_page(username):
 def homepage():
 	return render_template("home.html")
 app.wsgi_app = ProxyFix(app.wsgi_app)
+
+@app.route("/about")
+def about():
+	return render_template("about.html")
+app.wsgi_app = ProxyFix(app.wsgi_app)
+
 if __name__ == "__main__":
   app.run()
