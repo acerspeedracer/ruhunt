@@ -97,12 +97,21 @@
       margin-top: 200px;
     }
     .carousel-caption h1,
-    .carousel-caption .lead {
+    {
       margin: 0;
       line-height: 1.25;
       color: #fff;
-      -webkit-text-stroke-width: 1px;
-      -webkit-text-stroke-color: gray;
+      font-weight: bold;
+      -webkit-text-stroke-width: 2px;
+      -webkit-text-stroke-color: black;
+    }
+    .carousel-caption .lead {
+      margin: 0;
+      line-height: 1.25;
+      color: #999;
+      font-weight: bold;
+      /*-webkit-text-stroke-width: 1px;*/
+      -webkit-text-stroke-color: black;
     }
     .carousel-caption .btn {
       margin-top: 10px;

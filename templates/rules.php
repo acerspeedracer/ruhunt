@@ -20,7 +20,7 @@
 			require("navigation.php");
 		?>
 		<div class="rules">
-			<h2>RULES</h2>
+			<center><h2>RULES</h2></center>
 			<p><h3>Rule 1</h3> All players that wish to join in the current game must submit their name, picture, phone number, and at least 5 personal clues about yourself via email. Each piece of information must be entered line by line. All submissions must be entered before the declared deadline on the website. Any submissions received after the deadline will be put into the next round of the game.
 			</p>
 
