@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Carousel Template &middot; Bootstrap</title>
+    <title>Sign Up | Scarlet Assassins</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
@@ -21,18 +21,19 @@
   </head>
 
   <body>
+    <div id="signup">
 
-  	<?php
+    <?php
 
-require("navigation.php");
+    require("navigation.php");
 
-?>
-<div class="container marketing">
-<u><h1>Rules</h1></u>
-Rule1
-Rule2
-Rule3
-</div>
-
-</body>
+    ?>
+      <div class="signup">
+        <br><br><br><br><br>
+        <center><h2>Sign Up!</h2></center>
+        <div border-style: dotted; width=500;>
+          Instructions
+      </div>
+     </div>
+  </body>
 </html>
