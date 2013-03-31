@@ -3,6 +3,9 @@ import random
 def targetPeep(users):
   target = random.choice(users)
   textPeeps([target], "You are the target")
+  f = open('target', 'w')
+  f.write(target)
+  f.close()
   return target
 
 def textPeeps(number, string):
