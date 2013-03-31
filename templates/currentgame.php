@@ -28,9 +28,13 @@ require("navigation.php");
 
 ?>
 
+<div class="container marketing">
 
-stuff goes here about the current game
-
+  <!-- Three columns of text below the carousel -->
+  <div class="row">
+     <div class="span4">
+       <img class="img-circle" data-src="holder.js/140x140">
+          <h2>Heading</h2>
 
 <?php
 
@@ -52,6 +56,9 @@ else{
 
 ?>
 
-and stuff here
+	</div>
+</div>
+
+
   </body>
 </html>
